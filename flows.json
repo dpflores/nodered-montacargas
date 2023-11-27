@@ -46,7 +46,7 @@
         "type": "function",
         "z": "a9744a6d3cbf46cf",
         "name": "function 1",
-        "func": "msg.payload = 0.1;\nreturn msg;",
+        "func": "msg.payload = 0.5;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
