@@ -87,7 +87,9 @@
         "z": "a9744a6d3cbf46cf",
         "name": "",
         "statusCode": "200",
-        "headers": {},
+        "headers": {
+            "content-type": "application/json"
+        },
         "x": 600,
         "y": 200,
         "wires": []
