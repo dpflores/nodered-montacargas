@@ -1,1 +1,106 @@
-[]
+[
+    {
+        "id": "a9744a6d3cbf46cf",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8ef736210366c74b",
+        "type": "http in",
+        "z": "a9744a6d3cbf46cf",
+        "name": "",
+        "url": "/speed",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "d3aee49cc6378f5e"
+            ]
+        ]
+    },
+    {
+        "id": "84380587cf21d276",
+        "type": "http in",
+        "z": "a9744a6d3cbf46cf",
+        "name": "",
+        "url": "/load",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 260,
+        "wires": [
+            [
+                "7dddf88cc1c4d0ea"
+            ]
+        ]
+    },
+    {
+        "id": "d3aee49cc6378f5e",
+        "type": "function",
+        "z": "a9744a6d3cbf46cf",
+        "name": "function 1",
+        "func": "msg.payload = 0.1;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "eb3d6ca40c9a936c"
+            ]
+        ]
+    },
+    {
+        "id": "7dddf88cc1c4d0ea",
+        "type": "function",
+        "z": "a9744a6d3cbf46cf",
+        "name": "function 2",
+        "func": "msg.payload = 0.1;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "cef77620534b1464"
+            ]
+        ]
+    },
+    {
+        "id": "eb3d6ca40c9a936c",
+        "type": "http response",
+        "z": "a9744a6d3cbf46cf",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 600,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cef77620534b1464",
+        "type": "http response",
+        "z": "a9744a6d3cbf46cf",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 620,
+        "y": 260,
+        "wires": []
+    }
+]
