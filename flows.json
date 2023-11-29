@@ -90,7 +90,7 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 600,
+        "x": 640,
         "y": 200,
         "wires": []
     },
