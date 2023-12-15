@@ -9376,7 +9376,7 @@
         "z": "e4e3132651d7a6e6",
         "g": "28e7d1d85310a27e",
         "name": "function 110",
-        "func": "var data_json = {\n   \"gateway_key\": \"A13CFG\",\n   \"timestamp\": 1702656981098,\n   \"data\": {\n       \"gps\": {\n           \"pos_valid\": 1,\n           \"latitude\": -12.142126996711724,\n           \"longitude\": -76.99065559836517,\n           \"altitude\": 154,\n           \"haccuracy\": 14,\n           \"speed\": 6,\n           \"course\": 0\n       },\n\n\n       \"mantto\": 0,\n       \"running\": 0,\n       \"hourmeter\": 1,\n       \"battery\":24000,\n       \"pressure\": 10000\n      \n   }\n};\n\n\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
+        "func": "var data_json = {\n   \"gateway_key\": \"A13CFG\",\n   \"timestamp\": 1702656981098,\n   \"data\": {\n       \"gps\": {\n           \"pos_valid\": 1,\n           \"latitude\": -12.142126996711724,\n           \"longitude\": -76.99065559836517,\n           \"altitude\": 154,\n           \"haccuracy\": 14,\n           \"speed\": 6,\n           \"course\": 0\n       },\n\n\n       \"mantto\": 0,\n       \"running\": 1,\n       \"hourmeter\": 1,\n       \"battery\":24000,\n       \"pressure\": 10000\n      \n   }\n};\n\n\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
