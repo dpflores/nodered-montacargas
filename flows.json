@@ -487,7 +487,9 @@
             "c75c61cf2dd42916"
         ],
         "x": 254,
-        "y": 739
+        "y": 739,
+        "w": 1612,
+        "h": 342
     },
     {
         "id": "1a0d550707f8cc4f",
@@ -506,7 +508,9 @@
             "75f7fd59086311fd"
         ],
         "x": 254,
-        "y": 559
+        "y": 559,
+        "w": 832,
+        "h": 142
     },
     {
         "id": "f3d20ca83e6edb3b",
@@ -525,7 +529,9 @@
             "e89cfe106f7515fa"
         ],
         "x": 254,
-        "y": 99
+        "y": 99,
+        "w": 932,
+        "h": 142
     },
     {
         "id": "24d00d6b1a472a12",
@@ -557,7 +563,9 @@
             "1f4d74f8a25a0a45"
         ],
         "x": 234,
-        "y": 259
+        "y": 259,
+        "w": 1732,
+        "h": 222
     },
     {
         "id": "39ee7c5fdee1a73d",
@@ -711,6 +719,29 @@
         "y": 1159,
         "w": 912,
         "h": 82
+    },
+    {
+        "id": "b8636be1c6d3ccd8",
+        "type": "group",
+        "z": "9dcf4eee0723b8d2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8cdd97c5676022fd",
+            "ebebe23532ad6f37",
+            "5bc5aa9520511d62"
+        ],
+        "x": 94,
+        "y": 879,
+        "w": 532,
+        "h": 142
     },
     {
         "id": "8d53d2f17df7fbc4",
@@ -4083,6 +4114,7 @@
         "id": "8cdd97c5676022fd",
         "type": "change",
         "z": "9dcf4eee0723b8d2",
+        "g": "b8636be1c6d3ccd8",
         "name": "",
         "rules": [
             {
@@ -4098,8 +4130,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 390,
-        "y": 940,
+        "x": 410,
+        "y": 980,
         "wires": [
             []
         ]
@@ -4108,6 +4140,7 @@
         "id": "ebebe23532ad6f37",
         "type": "inject",
         "z": "9dcf4eee0723b8d2",
+        "g": "b8636be1c6d3ccd8",
         "name": "",
         "props": [
             {
@@ -4125,8 +4158,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 940,
+        "x": 210,
+        "y": 980,
         "wires": [
             [
                 "8cdd97c5676022fd"
@@ -4137,10 +4170,11 @@
         "id": "5bc5aa9520511d62",
         "type": "comment",
         "z": "9dcf4eee0723b8d2",
-        "name": "Data online de GPS y sensores combinado",
+        "g": "b8636be1c6d3ccd8",
+        "name": "Data online de GPS y sensores combinado para aplicaciones locales",
         "info": "",
-        "x": 280,
-        "y": 900,
+        "x": 360,
+        "y": 920,
         "wires": []
     },
     {
