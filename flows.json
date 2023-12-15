@@ -72,6 +72,14 @@
         "env": []
     },
     {
+        "id": "e4e3132651d7a6e6",
+        "type": "tab",
+        "label": "TEST",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "65ae0cadc7781aa1",
         "type": "subflow",
         "name": "IO-Link Master Scan",
@@ -9288,6 +9296,83 @@
         "info": "",
         "x": 680,
         "y": 780,
+        "wires": []
+    },
+    {
+        "id": "92244981ca3f07a5",
+        "type": "inject",
+        "z": "e4e3132651d7a6e6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "a8f08be1f689787b"
+            ]
+        ]
+    },
+    {
+        "id": "a8f08be1f689787b",
+        "type": "function",
+        "z": "e4e3132651d7a6e6",
+        "name": "function 110",
+        "func": "var data_json = {\n    \"gateway_key\": \"A13CFG\",\n    \"timestamp\": 1702656981098,\n    \"data\": {\n        \"gps\": {\n            \"pos_valid\": 0,\n            \"latitude\": 0,\n            \"longitude\": 0,\n            \"altitude\": 0,\n            \"haccuracy\": 0,\n            \"speed\": 0,\n            \"course\": 0\n        },\n\n\n        \"mantto\": 0,\n        \"running\": 0,\n        \"hourmeter\": 0,\n        \"battery\": 0,\n        \"pressure\": 0\n\n    }\n};\n\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "f19d1bf3f86ad056"
+            ]
+        ]
+    },
+    {
+        "id": "f19d1bf3f86ad056",
+        "type": "mqtt out",
+        "z": "e4e3132651d7a6e6",
+        "name": "",
+        "topic": "data/combined",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8d53d2f17df7fbc4",
+        "x": 580,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "416a0e01266431d1",
+        "type": "comment",
+        "z": "e4e3132651d7a6e6",
+        "name": "Cambiarlo de acuerdo a la data de prueba",
+        "info": "",
+        "x": 360,
+        "y": 80,
         "wires": []
     }
 ]
