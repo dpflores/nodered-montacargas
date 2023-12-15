@@ -759,12 +759,13 @@
         "nodes": [
             "92244981ca3f07a5",
             "a8f08be1f689787b",
-            "f19d1bf3f86ad056"
+            "f19d1bf3f86ad056",
+            "1bfde2abb1a3a085"
         ],
         "x": 74,
         "y": 159,
         "w": 652,
-        "h": 82
+        "h": 122
     },
     {
         "id": "8d53d2f17df7fbc4",
@@ -9362,7 +9363,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 190,
-        "y": 200,
+        "y": 240,
         "wires": [
             [
                 "a8f08be1f689787b"
@@ -9375,7 +9376,7 @@
         "z": "e4e3132651d7a6e6",
         "g": "28e7d1d85310a27e",
         "name": "function 110",
-        "func": "var data_json = {\n    \"gateway_key\": \"A13CFG\",\n    \"timestamp\": 1702656981098,\n    \"data\": {\n        \"gps\": {\n            \"pos_valid\": 0,\n            \"latitude\": 0,\n            \"longitude\": 0,\n            \"altitude\": 0,\n            \"haccuracy\": 0,\n            \"speed\": 0,\n            \"course\": 0\n        },\n\n\n        \"mantto\": 0,\n        \"running\": 0,\n        \"hourmeter\": 0,\n        \"battery\": 0,\n        \"pressure\": 0\n\n    }\n};\n\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
+        "func": "var data_json = {\n   \"gateway_key\": \"A13CFG\",\n   \"timestamp\": 1702656981098,\n   \"data\": {\n       \"gps\": {\n           \"pos_valid\": 1,\n           \"latitude\": -12.142126996711724,\n           \"longitude\": -76.99065559836517,\n           \"altitude\": 154,\n           \"haccuracy\": 14,\n           \"speed\": 6,\n           \"course\": 0\n       },\n\n\n       \"mantto\": 0,\n       \"running\": 0,\n       \"hourmeter\": 0,\n       \"battery\":24000,\n       \"pressure\": 10000\n      \n   }\n};\n\n\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -9383,7 +9384,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 200,
+        "y": 240,
         "wires": [
             [
                 "f19d1bf3f86ad056"
@@ -9406,7 +9407,7 @@
         "expiry": "",
         "broker": "8d53d2f17df7fbc4",
         "x": 620,
-        "y": 200,
+        "y": 240,
         "wires": []
     },
     {
@@ -9415,18 +9416,19 @@
         "z": "e4e3132651d7a6e6",
         "name": "Cambiarlo de acuerdo a la data de prueba",
         "info": "",
-        "x": 360,
-        "y": 80,
+        "x": 240,
+        "y": 120,
         "wires": []
     },
     {
         "id": "1bfde2abb1a3a085",
         "type": "comment",
         "z": "e4e3132651d7a6e6",
+        "g": "28e7d1d85310a27e",
         "name": "Desactivar envio MQTT en DATA",
         "info": "",
-        "x": 770,
-        "y": 80,
+        "x": 430,
+        "y": 200,
         "wires": []
     }
 ]
