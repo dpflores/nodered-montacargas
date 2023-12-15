@@ -4117,7 +4117,7 @@
                 "t": "set",
                 "p": "data_combined",
                 "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{},\"mantto\":0,\"running\":0,\"hourmeter\":0}}",
+                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{},\"mantto\":0,\"running\":0,\"hourmeter\":0,\"battery\":0,\"pressure\":0}}",
                 "tot": "json"
             }
         ],
