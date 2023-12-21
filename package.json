@@ -2,7 +2,9 @@
     "name": "nodered-montacargas",
     "description": "Sistema del montacargas",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-buffer-parser": "3.2.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
