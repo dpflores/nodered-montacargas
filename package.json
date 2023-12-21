@@ -3,7 +3,8 @@
     "description": "Sistema del montacargas",
     "version": "0.0.1",
     "dependencies": {
-        "node-red-contrib-buffer-parser": "3.2.2"
+        "node-red-contrib-buffer-parser": "3.2.2",
+        "node-red-contrib-socketcan": "1.2.9"
     },
     "node-red": {
         "settings": {
