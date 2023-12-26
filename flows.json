@@ -633,9 +633,7 @@
             "8fa40cd16f10f3f3"
         ],
         "x": 934,
-        "y": 519,
-        "w": 1292,
-        "h": 349.5
+        "y": 519
     },
     {
         "id": "f63822d016fb39f6",
@@ -666,9 +664,7 @@
             "1ef894c4d0536add"
         ],
         "x": 834,
-        "y": 139,
-        "w": 1632,
-        "h": 282
+        "y": 139
     },
     {
         "id": "19b6f50e55a455e1",
@@ -4139,7 +4135,7 @@
                 "t": "set",
                 "p": "data_combined",
                 "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{},\"mantto\":0,\"running\":0,\"hourmeter\":0,\"battery\":0,\"pressure\":0}}",
+                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{\"pos_valid\":1,\"latitude\":-12.0477003,\"longitude\":-77.100844,\"altitude\":84.782,\"haccuracy\":5.7,\"speed\":0,\"course\":0},\"mantto\":0,\"running\":0,\"hourmeter\":0,\"battery\":0,\"pressure\":0}}",
                 "tot": "json"
             }
         ],
