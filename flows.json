@@ -6194,7 +6194,6 @@
         "y": 1560,
         "wires": [
             [
-                "ef99aceb232f94a2",
                 "4c4631a2509855f7"
             ]
         ]
@@ -6261,8 +6260,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "Restart VPN",
-        "x": 910,
-        "y": 1480,
+        "x": 1010,
+        "y": 1500,
         "wires": [
             [],
             [],
@@ -6331,9 +6330,8 @@
         "y": 1780,
         "wires": [
             [
-                "9ed2775c93290be1",
-                "9e87bc66937a516c",
-                "bb20ee35c9aae520"
+                "bb20ee35c9aae520",
+                "d288dbedb534dfc0"
             ]
         ]
     },
@@ -6349,8 +6347,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "Restart Networking",
-        "x": 790,
-        "y": 1720,
+        "x": 1090,
+        "y": 1700,
         "wires": [
             [],
             [],
@@ -6401,7 +6399,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 890,
+        "x": 1130,
         "y": 1780,
         "wires": [
             []
@@ -6450,7 +6448,40 @@
         "wires": [
             [],
             [
-                "51a8cead4b1297e9"
+                "51a8cead4b1297e9",
+                "ef99aceb232f94a2"
+            ]
+        ]
+    },
+    {
+        "id": "d288dbedb534dfc0",
+        "type": "switch",
+        "z": "ac1b7f858f654d07",
+        "name": "running?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "connected",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "disconnected",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 1780,
+        "wires": [
+            [],
+            [
+                "9ed2775c93290be1",
+                "9e87bc66937a516c"
             ]
         ]
     },
