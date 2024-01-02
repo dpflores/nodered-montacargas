@@ -6361,8 +6361,8 @@
         "timer": "",
         "winHide": false,
         "oldrc": false,
-        "name": "Restart VPN",
-        "x": 770,
+        "name": "Restart Networking",
+        "x": 790,
         "y": 1720,
         "wires": [
             [],
