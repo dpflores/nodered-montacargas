@@ -425,32 +425,10 @@
             "25de188a7a085732",
             "48658aa020f8e9fe"
         ],
-        "x": 74,
-        "y": 79
-    },
-    {
-        "id": "b7f9bad1da3f666b",
-        "type": "group",
-        "z": "ac1b7f858f654d07",
-        "name": "Check server connection",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "f884311d2c1d9673",
-            "b64c3a8d66676f32",
-            "594f458e05d10cbd",
-            "227c7884566505e1",
-            "edc108b46726314b",
-            "27afe5b90432db76",
-            "6ea80da8b90fdb9f",
-            "59c386d7ca8c3c95",
-            "43b17978c7b72bd8",
-            "0108dea861a38364"
-        ],
-        "x": 54,
-        "y": 339
+        "x": 94,
+        "y": 99,
+        "w": 1372,
+        "h": 242
     },
     {
         "id": "1d1b1c227a0bc262",
@@ -643,7 +621,9 @@
             "8fa40cd16f10f3f3"
         ],
         "x": 934,
-        "y": 519
+        "y": 519,
+        "w": 1292,
+        "h": 349.5
     },
     {
         "id": "f63822d016fb39f6",
@@ -674,7 +654,9 @@
             "1ef894c4d0536add"
         ],
         "x": 834,
-        "y": 139
+        "y": 139,
+        "w": 1632,
+        "h": 282
     },
     {
         "id": "19b6f50e55a455e1",
@@ -5268,8 +5250,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 760,
-        "y": 140,
+        "x": 780,
+        "y": 160,
         "wires": [
             [
                 "30361390301119e6",
@@ -5300,8 +5282,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
-        "y": 180,
+        "x": 550,
+        "y": 200,
         "wires": [
             [
                 "dbaf8b3efeaabf37"
@@ -5331,8 +5313,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 220,
+        "x": 790,
+        "y": 240,
         "wires": [
             [
                 "369a679a146cb309",
@@ -5354,8 +5336,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1150,
-        "y": 120,
+        "x": 1170,
+        "y": 140,
         "wires": []
     },
     {
@@ -5372,94 +5354,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1120,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "f884311d2c1d9673",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections.vpn_server",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 760,
-        "y": 420,
-        "wires": [
-            [
-                "594f458e05d10cbd"
-            ]
-        ]
-    },
-    {
-        "id": "b64c3a8d66676f32",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections.vpn_server",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 760,
-        "y": 500,
-        "wires": [
-            [
-                "43b17978c7b72bd8",
-                "0108dea861a38364"
-            ]
-        ]
-    },
-    {
-        "id": "594f458e05d10cbd",
-        "type": "debug",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "Latencia servidor VPN",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
         "x": 1140,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "227c7884566505e1",
-        "type": "comment",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "falta corregir la IP maestra del VPN",
-        "info": "",
-        "x": 380,
-        "y": 520,
+        "y": 260,
         "wires": []
     },
     {
@@ -5482,8 +5378,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 180,
+        "x": 1230,
+        "y": 200,
         "wires": [
             []
         ]
@@ -5508,8 +5404,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 280,
+        "x": 1230,
+        "y": 300,
         "wires": [
             []
         ]
@@ -5750,8 +5646,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "Acme connection",
-        "x": 370,
-        "y": 200,
+        "x": 390,
+        "y": 220,
         "wires": [
             [
                 "969b2948e1ba5ece"
@@ -5782,99 +5678,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 200,
+        "x": 210,
+        "y": 220,
         "wires": [
             [
                 "25de188a7a085732"
-            ]
-        ]
-    },
-    {
-        "id": "edc108b46726314b",
-        "type": "switch",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 530,
-        "y": 440,
-        "wires": [
-            [
-                "f884311d2c1d9673"
-            ],
-            [
-                "b64c3a8d66676f32"
-            ]
-        ]
-    },
-    {
-        "id": "27afe5b90432db76",
-        "type": "exec",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "command": "echo -n $(sudo ping -c 1 192.168.192.79 | grep \"time=\" | cut -d'=' -f4 | cut -d' ' -f1)",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "VPN Laptop Del Piero",
-        "x": 360,
-        "y": 460,
-        "wires": [
-            [
-                "edc108b46726314b",
-                "59c386d7ca8c3c95"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "6ea80da8b90fdb9f",
-        "type": "inject",
-        "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "60",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 460,
-        "wires": [
-            [
-                "27afe5b90432db76"
             ]
         ]
     },
@@ -6339,27 +6147,126 @@
         ]
     },
     {
-        "id": "59c386d7ca8c3c95",
-        "type": "debug",
+        "id": "ba84c00520399543",
+        "type": "is online",
         "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "debug 126",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 380,
-        "wires": []
+        "name": "",
+        "url": "192.168.192.79",
+        "action": "1",
+        "x": 340,
+        "y": 1560,
+        "wires": [
+            [
+                "5b4ce3a30d347e88",
+                "8c5b42657007b5c3"
+            ]
+        ]
     },
     {
-        "id": "43b17978c7b72bd8",
+        "id": "ed2903dca7f2ed3c",
+        "type": "inject",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1560,
+        "wires": [
+            [
+                "ba84c00520399543"
+            ]
+        ]
+    },
+    {
+        "id": "5b4ce3a30d347e88",
+        "type": "timeout",
+        "z": "ac1b7f858f654d07",
+        "name": "My Timeout",
+        "outtopic": "",
+        "outsafe": "Safe",
+        "outwarning": "Warning",
+        "outunsafe": "Unsafe",
+        "warning": "30",
+        "timer": "60",
+        "repeat": false,
+        "again": false,
+        "x": 550,
+        "y": 1560,
+        "wires": [
+            [
+                "51a8cead4b1297e9",
+                "ef99aceb232f94a2"
+            ]
+        ]
+    },
+    {
+        "id": "51a8cead4b1297e9",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "connections.vpn_server",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c5b42657007b5c3",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "connections.vpn_server",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ef99aceb232f94a2",
         "type": "exec",
         "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
         "command": "sudo systemctl restart zerotier-one",
         "addpay": "",
         "append": "",
@@ -6368,8 +6275,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "Restart VPN",
-        "x": 1030,
-        "y": 520,
+        "x": 770,
+        "y": 1500,
         "wires": [
             [],
             [],
@@ -6377,22 +6284,141 @@
         ]
     },
     {
-        "id": "0108dea861a38364",
-        "type": "debug",
+        "id": "cae94f72c6bf7311",
+        "type": "is online",
         "z": "ac1b7f858f654d07",
-        "g": "b7f9bad1da3f666b",
-        "name": "Not connected",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 460,
-        "wires": []
+        "name": "",
+        "url": "",
+        "action": "1",
+        "x": 340,
+        "y": 1780,
+        "wires": [
+            [
+                "785734d45c18f503",
+                "d25852d3eaf8b0f9"
+            ]
+        ]
+    },
+    {
+        "id": "88a52c82551df2cf",
+        "type": "inject",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1780,
+        "wires": [
+            [
+                "cae94f72c6bf7311"
+            ]
+        ]
+    },
+    {
+        "id": "785734d45c18f503",
+        "type": "timeout",
+        "z": "ac1b7f858f654d07",
+        "name": "My Timeout",
+        "outtopic": "",
+        "outsafe": "Safe",
+        "outwarning": "Warning",
+        "outunsafe": "Unsafe",
+        "warning": "30",
+        "timer": "60",
+        "repeat": false,
+        "again": false,
+        "x": 550,
+        "y": 1780,
+        "wires": [
+            [
+                "9ed2775c93290be1",
+                "9e87bc66937a516c"
+            ]
+        ]
+    },
+    {
+        "id": "9ed2775c93290be1",
+        "type": "exec",
+        "z": "ac1b7f858f654d07",
+        "command": "sudo systemctl restart zerotier-one",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Restart VPN",
+        "x": 770,
+        "y": 1720,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d25852d3eaf8b0f9",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "connections.acme_server",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e87bc66937a516c",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "connections_acme_server",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1780,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "b8577533afc8f923",
