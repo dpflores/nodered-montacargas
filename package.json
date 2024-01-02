@@ -6,7 +6,8 @@
         "node-red-contrib-buffer-parser": "3.2.2",
         "node-red-contrib-socketcan": "1.2.9",
         "node-red-node-mysql": "1.0.3",
-        "node-red-contrib-isonline": "1.1.15"
+        "node-red-contrib-isonline": "1.1.15",
+        "node-red-contrib-timeout": "1.1.5"
     },
     "node-red": {
         "settings": {
