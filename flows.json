@@ -6354,7 +6354,7 @@
         "id": "9ed2775c93290be1",
         "type": "exec",
         "z": "ac1b7f858f654d07",
-        "command": "sudo systemctl restart zerotier-one",
+        "command": "sudo systemctl restart networking",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
