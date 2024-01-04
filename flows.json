@@ -327,7 +327,9 @@
             "8a9e7a194ebfd65a"
         ],
         "x": 84,
-        "y": 19
+        "y": 19,
+        "w": 822,
+        "h": 542
     },
     {
         "id": "6b7c1f4fbbe77c84",
@@ -349,7 +351,9 @@
             "d6d0156b1cb768a3"
         ],
         "x": 84,
-        "y": 1159
+        "y": 1159,
+        "w": 962,
+        "h": 202
     },
     {
         "id": "65c598bb5234d69b",
@@ -370,7 +374,9 @@
             "c2403b842567b383"
         ],
         "x": 84,
-        "y": 639
+        "y": 639,
+        "w": 742,
+        "h": 182
     },
     {
         "id": "a5bc3a1930f09c8f",
@@ -395,7 +401,9 @@
             "124808048f0bda31"
         ],
         "x": 84,
-        "y": 859
+        "y": 859,
+        "w": 1142,
+        "h": 262
     },
     {
         "id": "39ddbe85a72ee0b3",
@@ -436,7 +444,9 @@
             "0c617771a3bf80f9"
         ],
         "x": 94,
-        "y": 1419
+        "y": 1419,
+        "w": 572,
+        "h": 82
     },
     {
         "id": "f2e2e6faa602b3b4",
@@ -3267,55 +3277,6 @@
         "x": 1220,
         "y": 360,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f6030b020cf22d88",
-        "type": "inject",
-        "z": "9dcf4eee0723b8d2",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 320,
-        "wires": [
-            [
-                "60c6f4ec37befba9"
-            ]
-        ]
-    },
-    {
-        "id": "60c6f4ec37befba9",
-        "type": "exec",
-        "z": "9dcf4eee0723b8d2",
-        "command": "sudo pollux-gps --stop",
-        "addpay": "payload",
-        "append": "",
-        "useSpawn": "true",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Stop pollux GPS",
-        "x": 420,
-        "y": 340,
-        "wires": [
-            [],
-            [],
             []
         ]
     },
@@ -6172,9 +6133,7 @@
         "x": 170,
         "y": 1560,
         "wires": [
-            [
-                "ba84c00520399543"
-            ]
+            []
         ]
     },
     {
@@ -6193,9 +6152,7 @@
         "x": 550,
         "y": 1560,
         "wires": [
-            [
-                "4c4631a2509855f7"
-            ]
+            []
         ]
     },
     {
@@ -6448,8 +6405,7 @@
         "wires": [
             [],
             [
-                "51a8cead4b1297e9",
-                "ef99aceb232f94a2"
+                "51a8cead4b1297e9"
             ]
         ]
     },
@@ -6482,6 +6438,35 @@
             [
                 "9ed2775c93290be1",
                 "9e87bc66937a516c"
+            ]
+        ]
+    },
+    {
+        "id": "f476c0f3bc73812a",
+        "type": "inject",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 750,
+        "y": 1500,
+        "wires": [
+            [
+                "ef99aceb232f94a2"
             ]
         ]
     },
