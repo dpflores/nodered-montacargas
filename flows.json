@@ -16,17 +16,17 @@
         "env": []
     },
     {
-        "id": "ac1b7f858f654d07",
+        "id": "87fe75fba6b00d60",
         "type": "tab",
-        "label": "CONNECTIVITY & MONITORING",
+        "label": "LOCALIZATION",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "87fe75fba6b00d60",
+        "id": "ac1b7f858f654d07",
         "type": "tab",
-        "label": "LOCALIZATION",
+        "label": "CONNECTIVITY & MONITORING",
         "disabled": false,
         "info": "",
         "env": []
@@ -303,33 +303,18 @@
             "color": "#000000"
         },
         "nodes": [
-            "4b44abe7284d3925",
-            "3b0fb10da4893963",
-            "dbb0818b6ec8428d",
-            "10fe9b1f0057fb10",
-            "ce80aa21413d62c3",
-            "d825a23051422fb4",
-            "2106c9058afc494e",
-            "ab7d8e0de922c171",
-            "123a73d31ff03049",
-            "30e7094decd8d85a",
-            "59a6cb29d810557c",
-            "725455281c6afeb6",
-            "3aad3ad409322448",
-            "56f2ac1b5a2a8e7e",
-            "99f9a902e0a02b8b",
             "dcd3ec7e6e779133",
             "e90d44a9669604c8",
             "08020b6ab946e619",
             "1d325151593e5d32",
-            "5b677d5a42dc9067",
-            "3180b4836b088fbe",
-            "8a9e7a194ebfd65a"
+            "8a9e7a194ebfd65a",
+            "2b7361077014e1aa",
+            "cae06e054ef93f61"
         ],
-        "x": 84,
-        "y": 19,
-        "w": 822,
-        "h": 542
+        "x": 114,
+        "y": 299,
+        "w": 832,
+        "h": 242
     },
     {
         "id": "6b7c1f4fbbe77c84",
@@ -369,13 +354,13 @@
             "e9eeb5845b5972aa",
             "f33d6f0f0f55c8c7",
             "83165532a02208c5",
-            "c92224eb190a3a85",
-            "5c1f0d9723125c37",
-            "c2403b842567b383"
+            "b5fac5c891b6de0c",
+            "de5ee521b60b4c4c",
+            "4dba446d46dc1ef4"
         ],
-        "x": 84,
+        "x": 154,
         "y": 639,
-        "w": 742,
+        "w": 732,
         "h": 182
     },
     {
@@ -389,7 +374,6 @@
         },
         "nodes": [
             "89c8205089453bdc",
-            "f744467ba4084a45",
             "4d989b9847ec219b",
             "a92b564f771f2512",
             "45c703090ffad7f3",
@@ -397,38 +381,16 @@
             "7848935da681379d",
             "9a6f168a3cfe9e6c",
             "de31a22e8417c259",
-            "901a8dc39713bf21",
-            "124808048f0bda31"
+            "124808048f0bda31",
+            "f744467ba4084a45",
+            "88336e89834b87b5",
+            "f8c6cb7e77c989aa",
+            "a02bbf92b60f8560"
         ],
-        "x": 84,
+        "x": 34,
         "y": 859,
-        "w": 1142,
+        "w": 1392,
         "h": 262
-    },
-    {
-        "id": "39ddbe85a72ee0b3",
-        "type": "group",
-        "z": "ac1b7f858f654d07",
-        "name": "Check server connection",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "dbaf8b3efeaabf37",
-            "969b2948e1ba5ece",
-            "ee185204f3df637f",
-            "30361390301119e6",
-            "369a679a146cb309",
-            "48fe66a37a5d4455",
-            "47371280d37afc93",
-            "25de188a7a085732",
-            "48658aa020f8e9fe"
-        ],
-        "x": 94,
-        "y": 99,
-        "w": 1372,
-        "h": 242
     },
     {
         "id": "1d1b1c227a0bc262",
@@ -472,7 +434,9 @@
             "c75c61cf2dd42916"
         ],
         "x": 234,
-        "y": 699
+        "y": 699,
+        "w": 1612,
+        "h": 342
     },
     {
         "id": "1a0d550707f8cc4f",
@@ -491,7 +455,9 @@
             "75f7fd59086311fd"
         ],
         "x": 234,
-        "y": 519
+        "y": 519,
+        "w": 832,
+        "h": 142
     },
     {
         "id": "f3d20ca83e6edb3b",
@@ -510,7 +476,9 @@
             "e89cfe106f7515fa"
         ],
         "x": 234,
-        "y": 99
+        "y": 99,
+        "w": 932,
+        "h": 142
     },
     {
         "id": "24d00d6b1a472a12",
@@ -542,59 +510,9 @@
             "1f4d74f8a25a0a45"
         ],
         "x": 234,
-        "y": 259
-    },
-    {
-        "id": "39ee7c5fdee1a73d",
-        "type": "group",
-        "z": "9dcf4eee0723b8d2",
-        "name": "",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d4c91e04aba283b0",
-            "a5c3e22a254f5be0",
-            "a25e103160a7edec",
-            "53dfcee0883db7e9",
-            "43ae7cdff04bcb42",
-            "7da72f3e8ad0838f",
-            "73028fe153bab507",
-            "498a63341c6c09bc",
-            "bbd2e89fc29bb3d4",
-            "8230b599dd778a58"
-        ],
-        "x": 94,
-        "y": 459,
-        "w": 752,
-        "h": 202
-    },
-    {
-        "id": "d0cb8a88c6ce6e6a",
-        "type": "group",
-        "z": "9dcf4eee0723b8d2",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "175ffd13e53eebee",
-            "c94a6ee1052d99af",
-            "28ca481dcca872ab",
-            "3ed14e2e1b62402e",
-            "deff22c1d2b71e73",
-            "3c9cbacaf86fb73b",
-            "47df8527ad4bc0d8"
-        ],
-        "x": 94,
-        "y": 679,
-        "w": 752,
-        "h": 162
+        "y": 259,
+        "w": 1732,
+        "h": 222
     },
     {
         "id": "b581a2db5e6b184e",
@@ -621,7 +539,9 @@
             "8fa40cd16f10f3f3"
         ],
         "x": 934,
-        "y": 519
+        "y": 519,
+        "w": 1292,
+        "h": 349.5
     },
     {
         "id": "f63822d016fb39f6",
@@ -637,14 +557,12 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "df8a10090d74e4e8",
             "b8577533afc8f923",
             "36684df8be923d94",
             "47831eb7f61148f3",
             "8256a75577ab7f8f",
             "7ecec582e1d531ff",
             "e08c99662e73027f",
-            "2fa77055763d72e1",
             "e84a74a9fa6d9250",
             "3e24baa2c251e9ef",
             "747ff1bf8f03c395",
@@ -652,7 +570,9 @@
             "1ef894c4d0536add"
         ],
         "x": 834,
-        "y": 139
+        "y": 139,
+        "w": 1632,
+        "h": 282
     },
     {
         "id": "19b6f50e55a455e1",
@@ -718,6 +638,24 @@
         "h": 142
     },
     {
+        "id": "929dcf3869978995",
+        "type": "group",
+        "z": "d91ac3d282c069d0",
+        "name": "DELETE ALL OFFLINE DATA MANUALLY (CAREFULL)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c9733c93ee4e3273",
+            "5246c5e64b9e73e9",
+            "0ee975cfd312fd82"
+        ],
+        "x": 54,
+        "y": 1559,
+        "w": 572,
+        "h": 82
+    },
+    {
         "id": "8d53d2f17df7fbc4",
         "type": "mqtt-broker",
         "name": "ACME_broker",
@@ -727,7 +665,7 @@
         "autoConnect": true,
         "usetls": false,
         "protocolVersion": "4",
-        "keepalive": "60",
+        "keepalive": "20",
         "cleansession": true,
         "autoUnsubscribe": true,
         "birthTopic": "",
@@ -779,7 +717,7 @@
         "id": "45598baf2af77f76",
         "type": "MySQLdatabase",
         "name": "",
-        "host": "localhost",
+        "host": "127.0.0.1",
         "port": "3306",
         "db": "acme_db",
         "tz": "",
@@ -3395,81 +3333,6 @@
         ]
     },
     {
-        "id": "d4c91e04aba283b0",
-        "type": "inject",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 540,
-        "wires": [
-            [
-                "a5c3e22a254f5be0"
-            ]
-        ]
-    },
-    {
-        "id": "a5c3e22a254f5be0",
-        "type": "change",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_live_fast_sensors",
-                "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"data\":{}}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 460,
-        "y": 540,
-        "wires": [
-            [
-                "a25e103160a7edec"
-            ]
-        ]
-    },
-    {
-        "id": "a25e103160a7edec",
-        "type": "debug",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "f6957c60f691242c",
         "type": "change",
         "z": "9dcf4eee0723b8d2",
@@ -3617,328 +3480,6 @@
         ]
     },
     {
-        "id": "53dfcee0883db7e9",
-        "type": "inject",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 580,
-        "wires": [
-            [
-                "43ae7cdff04bcb42"
-            ]
-        ]
-    },
-    {
-        "id": "43ae7cdff04bcb42",
-        "type": "change",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_live_fast_gps",
-                "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"data\":{\"gps\":{\"pos_valid\":0,\"latitude\":0,\"longitude\":0,\"altitude\":0,\"haccuracy\":0,\"speed\":0,\"course\":0}}}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 440,
-        "y": 580,
-        "wires": [
-            [
-                "7da72f3e8ad0838f"
-            ]
-        ]
-    },
-    {
-        "id": "7da72f3e8ad0838f",
-        "type": "debug",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "73028fe153bab507",
-        "type": "inject",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 620,
-        "wires": [
-            [
-                "498a63341c6c09bc"
-            ]
-        ]
-    },
-    {
-        "id": "498a63341c6c09bc",
-        "type": "change",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_live_slow",
-                "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"data\":{\"gateway_info\":{\"eth_ip\":\"-\",\"vpn_ip\":\"-\",\"ping_acme\":\"-\",\"total_space_MB\":0,\"free_space_MB\":0,\"temperature\":0,\"vbat\":0}}}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 430,
-        "y": 620,
-        "wires": [
-            [
-                "bbd2e89fc29bb3d4"
-            ]
-        ]
-    },
-    {
-        "id": "bbd2e89fc29bb3d4",
-        "type": "debug",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "175ffd13e53eebee",
-        "type": "inject",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 760,
-        "wires": [
-            [
-                "c94a6ee1052d99af"
-            ]
-        ]
-    },
-    {
-        "id": "c94a6ee1052d99af",
-        "type": "change",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_online_save_sensors",
-                "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{}}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 470,
-        "y": 760,
-        "wires": [
-            [
-                "28ca481dcca872ab"
-            ]
-        ]
-    },
-    {
-        "id": "28ca481dcca872ab",
-        "type": "debug",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "3ed14e2e1b62402e",
-        "type": "inject",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 800,
-        "wires": [
-            [
-                "deff22c1d2b71e73"
-            ]
-        ]
-    },
-    {
-        "id": "deff22c1d2b71e73",
-        "type": "change",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_online_save_gps",
-                "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{\"pos_valid\":0,\"latitude\":0,\"longitude\":0,\"altitude\":0,\"haccuracy\":0,\"speed\":0,\"course\":0}}}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 460,
-        "y": 800,
-        "wires": [
-            [
-                "3c9cbacaf86fb73b"
-            ]
-        ]
-    },
-    {
-        "id": "3c9cbacaf86fb73b",
-        "type": "debug",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "8230b599dd778a58",
-        "type": "comment",
-        "z": "9dcf4eee0723b8d2",
-        "g": "39ee7c5fdee1a73d",
-        "name": "Data para el dashboard, no se guarda en db",
-        "info": "",
-        "x": 290,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "47df8527ad4bc0d8",
-        "type": "comment",
-        "z": "9dcf4eee0723b8d2",
-        "g": "d0cb8a88c6ce6e6a",
-        "name": "Data para db",
-        "info": "",
-        "x": 190,
-        "y": 720,
-        "wires": []
-    },
-    {
         "id": "215f2248ebe8d373",
         "type": "change",
         "z": "9dcf4eee0723b8d2",
@@ -4074,7 +3615,7 @@
                 "t": "set",
                 "p": "data_combined",
                 "pt": "global",
-                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{\"pos_valid\":1,\"latitude\":-12.0477003,\"longitude\":-77.100844,\"altitude\":84.782,\"haccuracy\":5.7,\"speed\":0,\"course\":0},\"mantto\":0,\"running\":0,\"hourmeter\":0,\"battery\":0,\"pressure\":0}}",
+                "to": "{\"gateway_key\":\"\",\"timestamp\":0,\"data\":{\"gps\":{\"pos_valid\":1,\"latitude\":-12.0477003,\"longitude\":-77.100844,\"altitude\":84.782,\"haccuracy\":5.7,\"speed\":0,\"course\":0},\"mantto\":0,\"running\":0,\"hourmeter\":0,\"battery\":{\"voltage\":0},\"pressure\":{\"current\":0}}}",
                 "tot": "json"
             }
         ],
@@ -4167,27 +3708,6 @@
         "wires": []
     },
     {
-        "id": "f744467ba4084a45",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "a5bc3a1930f09c8f",
-        "name": "obtener primer dato",
-        "func": "msg.topic = \"SELECT data FROM offline_data LIMIT 1;\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 960,
-        "wires": [
-            [
-                "89c8205089453bdc"
-            ]
-        ]
-    },
-    {
         "id": "4d989b9847ec219b",
         "type": "debug",
         "z": "d91ac3d282c069d0",
@@ -4200,7 +3720,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1070,
+        "x": 1270,
         "y": 1020,
         "wires": []
     },
@@ -4271,11 +3791,12 @@
         "name": "function 103",
         "func": "\nmsg.topic = \"INSERT INTO `offline_data` (`data`) VALUES ('\"+ msg.payload + \"');\";\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 610,
         "y": 720,
         "wires": [
             [
@@ -4293,7 +3814,7 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 390,
+        "x": 450,
         "y": 720,
         "wires": [
             [
@@ -4315,7 +3836,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 720,
+        "x": 780,
         "y": 680,
         "wires": []
     },
@@ -4327,11 +3848,12 @@
         "name": "Procesar para mqtt",
         "func": "var array_in = msg.payload;\nvar data_out = [];\n\n\n\nif (msg.payload[0] == undefined){\n    node.status({ fill: \"green\", shape: \"ring\", text: \"empty data\" });\n    return null;    \n}\n\nelse {\n    data_out = JSON.parse(msg.payload[0].data);\n    \n    node.status({ fill: \"green\", shape: \"dot\", text: \"sending offline\" });\n\n    msg.payload = data_out;\n\n    return msg;\n\n}\n\n\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 910,
         "y": 960,
         "wires": [
             [
@@ -4356,7 +3878,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 690,
+        "x": 890,
         "y": 900,
         "wires": []
     },
@@ -4375,7 +3897,7 @@
         "correl": "",
         "expiry": "",
         "broker": "8d53d2f17df7fbc4",
-        "x": 1060,
+        "x": 1260,
         "y": 960,
         "wires": []
     },
@@ -4393,7 +3915,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1050,
+        "x": 1250,
         "y": 900,
         "wires": []
     },
@@ -4410,7 +3932,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 920,
         "y": 1080,
         "wires": [
             [
@@ -4438,80 +3960,6 @@
         ]
     },
     {
-        "id": "c92224eb190a3a85",
-        "type": "link in",
-        "z": "d91ac3d282c069d0",
-        "g": "65c598bb5234d69b",
-        "name": "",
-        "links": [
-            "6a0d6344d5559850",
-            "1d325151593e5d32",
-            "5b677d5a42dc9067"
-        ],
-        "x": 125,
-        "y": 720,
-        "wires": [
-            [
-                "5c1f0d9723125c37"
-            ]
-        ]
-    },
-    {
-        "id": "5c1f0d9723125c37",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "65c598bb5234d69b",
-        "name": "",
-        "func": "var connections = global.get('connections');\n\nvar msg2 = {}\n\nmsg.payload = msg.payload;\nif (connections.acme_server == false){\n    // Not connected\n    node.status({ fill: \"green\", shape: \"ring\", text: \"disconnected - saving\" });\n    return [msg, null];\n}\nelse{\n    // Connected\n    node.status({ fill: \"green\", shape: \"dot\", text: \"connected - no save\" });\n\n    return [null, msg];\n}\n",
-        "outputs": 2,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 240,
-        "y": 720,
-        "wires": [
-            [
-                "f33d6f0f0f55c8c7"
-            ],
-            [
-                "c2403b842567b383"
-            ]
-        ]
-    },
-    {
-        "id": "c2403b842567b383",
-        "type": "link out",
-        "z": "d91ac3d282c069d0",
-        "g": "65c598bb5234d69b",
-        "name": "connected",
-        "mode": "link",
-        "links": [
-            "901a8dc39713bf21"
-        ],
-        "x": 355,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "901a8dc39713bf21",
-        "type": "link in",
-        "z": "d91ac3d282c069d0",
-        "g": "a5bc3a1930f09c8f",
-        "name": "",
-        "links": [
-            "c2403b842567b383"
-        ],
-        "x": 125,
-        "y": 960,
-        "wires": [
-            [
-                "f744467ba4084a45"
-            ]
-        ]
-    },
-    {
         "id": "124808048f0bda31",
         "type": "debug",
         "z": "d91ac3d282c069d0",
@@ -4525,200 +3973,9 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1110,
+        "x": 1310,
         "y": 1080,
         "wires": []
-    },
-    {
-        "id": "4b44abe7284d3925",
-        "type": "inject",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 60,
-        "wires": [
-            [
-                "dbb0818b6ec8428d"
-            ]
-        ]
-    },
-    {
-        "id": "3b0fb10da4893963",
-        "type": "mqtt out",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "topic": "data_live/fast/gps",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "8d53d2f17df7fbc4",
-        "x": 640,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "dbb0818b6ec8428d",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "function 103",
-        "func": "var data_json = global.get('data_live_fast_sensors');\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 60,
-        "wires": [
-            [
-                "123a73d31ff03049"
-            ]
-        ]
-    },
-    {
-        "id": "10fe9b1f0057fb10",
-        "type": "mqtt out",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "topic": "data/online/save/sensors",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "8d53d2f17df7fbc4",
-        "x": 660,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "ce80aa21413d62c3",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "function 103",
-        "func": "var data_json = global.get('data_live_fast_gps');\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 120,
-        "wires": [
-            [
-                "3b0fb10da4893963"
-            ]
-        ]
-    },
-    {
-        "id": "d825a23051422fb4",
-        "type": "inject",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "2",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 120,
-        "wires": [
-            [
-                "ce80aa21413d62c3"
-            ]
-        ]
-    },
-    {
-        "id": "2106c9058afc494e",
-        "type": "inject",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "300",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 180,
-        "wires": [
-            [
-                "ab7d8e0de922c171"
-            ]
-        ]
-    },
-    {
-        "id": "ab7d8e0de922c171",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "function 103",
-        "func": "var data_json = global.get('data_live_slow');\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 180,
-        "wires": [
-            [
-                "30e7094decd8d85a"
-            ]
-        ]
     },
     {
         "id": "04c1122e78e23c08",
@@ -4813,167 +4070,6 @@
         ]
     },
     {
-        "id": "123a73d31ff03049",
-        "type": "mqtt out",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "topic": "data_live/fast/sensors",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "8d53d2f17df7fbc4",
-        "x": 650,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "30e7094decd8d85a",
-        "type": "mqtt out",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "topic": "data_live/slow",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "8d53d2f17df7fbc4",
-        "x": 630,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "59a6cb29d810557c",
-        "type": "mqtt out",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "topic": "data/online/save/gps",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "8d53d2f17df7fbc4",
-        "x": 650,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "725455281c6afeb6",
-        "type": "inject",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 300,
-        "wires": [
-            [
-                "3aad3ad409322448"
-            ]
-        ]
-    },
-    {
-        "id": "3aad3ad409322448",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "function 105",
-        "func": "var data_json = global.get('data_online_save_sensors');\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 300,
-        "wires": [
-            [
-                "10fe9b1f0057fb10",
-                "5b677d5a42dc9067"
-            ]
-        ]
-    },
-    {
-        "id": "56f2ac1b5a2a8e7e",
-        "type": "inject",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "2",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 360,
-        "wires": [
-            [
-                "99f9a902e0a02b8b"
-            ]
-        ]
-    },
-    {
-        "id": "99f9a902e0a02b8b",
-        "type": "function",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "function 106",
-        "func": "var data_json = global.get('data_online_save_gps');\ndata_json.timestamp = msg.payload;\nmsg.payload = data_json;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 360,
-        "wires": [
-            [
-                "59a6cb29d810557c",
-                "5b677d5a42dc9067"
-            ]
-        ]
-    },
-    {
         "id": "d6d0156b1cb768a3",
         "type": "comment",
         "z": "d91ac3d282c069d0",
@@ -4991,7 +4087,7 @@
         "g": "a5bc3a1930f09c8f",
         "mydb": "45598baf2af77f76",
         "name": "",
-        "x": 480,
+        "x": 720,
         "y": 960,
         "wires": [
             [
@@ -5021,7 +4117,7 @@
         "g": "65c598bb5234d69b",
         "mydb": "45598baf2af77f76",
         "name": "",
-        "x": 720,
+        "x": 800,
         "y": 720,
         "wires": [
             []
@@ -5034,7 +4130,7 @@
         "g": "a5bc3a1930f09c8f",
         "mydb": "45598baf2af77f76",
         "name": "",
-        "x": 920,
+        "x": 1120,
         "y": 1080,
         "wires": [
             [
@@ -5077,8 +4173,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 200,
-        "y": 460,
+        "x": 230,
+        "y": 380,
         "wires": [
             [
                 "e90d44a9669604c8"
@@ -5098,12 +4194,14 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 460,
+        "x": 450,
+        "y": 380,
         "wires": [
             [
                 "08020b6ab946e619",
-                "1d325151593e5d32"
+                "1d325151593e5d32",
+                "2b7361077014e1aa",
+                "cae06e054ef93f61"
             ]
         ]
     },
@@ -5122,8 +4220,8 @@
         "correl": "",
         "expiry": "",
         "broker": "8d53d2f17df7fbc4",
-        "x": 630,
-        "y": 460,
+        "x": 660,
+        "y": 380,
         "wires": []
     },
     {
@@ -5135,35 +4233,11 @@
         "mode": "link",
         "links": [
             "80cc8c7dae71c897",
-            "c92224eb190a3a85"
+            "c92224eb190a3a85",
+            "b5fac5c891b6de0c"
         ],
-        "x": 595,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "5b677d5a42dc9067",
-        "type": "link out",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "data_stream",
-        "mode": "link",
-        "links": [
-            "c92224eb190a3a85"
-        ],
-        "x": 595,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "3180b4836b088fbe",
-        "type": "comment",
-        "z": "d91ac3d282c069d0",
-        "g": "3e6cdd9658d4b98d",
-        "name": "Para envio a la plataforma ACME",
-        "info": "",
-        "x": 750,
-        "y": 420,
+        "x": 555,
+        "y": 500,
         "wires": []
     },
     {
@@ -5173,126 +4247,35 @@
         "g": "3e6cdd9658d4b98d",
         "name": "Para envio a plataformas locales",
         "info": "",
-        "x": 750,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "dbaf8b3efeaabf37",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections.acme_server",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 160,
-        "wires": [
-            [
-                "30361390301119e6",
-                "48fe66a37a5d4455"
-            ]
-        ]
-    },
-    {
-        "id": "969b2948e1ba5ece",
-        "type": "switch",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 550,
-        "y": 200,
-        "wires": [
-            [
-                "dbaf8b3efeaabf37"
-            ],
-            [
-                "ee185204f3df637f"
-            ]
-        ]
-    },
-    {
-        "id": "ee185204f3df637f",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections_acme_server",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
         "x": 790,
-        "y": 240,
-        "wires": [
-            [
-                "369a679a146cb309",
-                "47371280d37afc93"
-            ]
-        ]
-    },
-    {
-        "id": "30361390301119e6",
-        "type": "debug",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "Latencia servidor Acme",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1170,
-        "y": 140,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "369a679a146cb309",
+        "id": "2b7361077014e1aa",
+        "type": "mqtt out",
+        "z": "d91ac3d282c069d0",
+        "g": "3e6cdd9658d4b98d",
+        "name": "",
+        "topic": "data/combined1",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8d53d2f17df7fbc4",
+        "x": 660,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "cae06e054ef93f61",
         "type": "debug",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "Not connected",
+        "z": "d91ac3d282c069d0",
+        "g": "3e6cdd9658d4b98d",
+        "name": "debug 155",
         "active": false,
         "tosidebar": true,
         "console": false,
@@ -5301,22 +4284,692 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1140,
-        "y": 260,
+        "x": 630,
+        "y": 340,
         "wires": []
     },
     {
-        "id": "48fe66a37a5d4455",
+        "id": "f744467ba4084a45",
+        "type": "function",
+        "z": "d91ac3d282c069d0",
+        "g": "a5bc3a1930f09c8f",
+        "name": "obtener primer dato",
+        "func": "msg.topic = \"SELECT data FROM offline_data LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 960,
+        "wires": [
+            [
+                "89c8205089453bdc"
+            ]
+        ]
+    },
+    {
+        "id": "b5fac5c891b6de0c",
+        "type": "link in",
+        "z": "d91ac3d282c069d0",
+        "g": "65c598bb5234d69b",
+        "name": "",
+        "links": [
+            "1d325151593e5d32"
+        ],
+        "x": 195,
+        "y": 720,
+        "wires": [
+            [
+                "de5ee521b60b4c4c",
+                "4dba446d46dc1ef4"
+            ]
+        ]
+    },
+    {
+        "id": "88336e89834b87b5",
+        "type": "is online",
+        "z": "d91ac3d282c069d0",
+        "g": "a5bc3a1930f09c8f",
+        "name": "",
+        "url": "",
+        "action": "1",
+        "x": 300,
+        "y": 960,
+        "wires": [
+            [
+                "f744467ba4084a45"
+            ]
+        ]
+    },
+    {
+        "id": "de5ee521b60b4c4c",
+        "type": "is online",
+        "z": "d91ac3d282c069d0",
+        "g": "65c598bb5234d69b",
+        "name": "",
+        "url": "",
+        "action": "2",
+        "x": 300,
+        "y": 720,
+        "wires": [
+            [
+                "f33d6f0f0f55c8c7"
+            ]
+        ]
+    },
+    {
+        "id": "f8c6cb7e77c989aa",
+        "type": "inject",
+        "z": "d91ac3d282c069d0",
+        "g": "a5bc3a1930f09c8f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 960,
+        "wires": [
+            [
+                "88336e89834b87b5"
+            ]
+        ]
+    },
+    {
+        "id": "4dba446d46dc1ef4",
+        "type": "function",
+        "z": "d91ac3d282c069d0",
+        "g": "65c598bb5234d69b",
+        "name": "",
+        "func": "var connections = global.get('connections');\n\nvar msg2 = {}\n\nmsg.payload = msg.payload;\nif (connections.acme_server == false){\n    // Not connected\n    node.status({ fill: \"green\", shape: \"ring\", text: \"disconnected - saving\" });\n    return [msg, null];\n}\nelse{\n    // Connected\n    node.status({ fill: \"green\", shape: \"dot\", text: \"connected - no save\" });\n\n    return [null, msg];\n}\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 780,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c9733c93ee4e3273",
+        "type": "inject",
+        "z": "d91ac3d282c069d0",
+        "g": "929dcf3869978995",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1600,
+        "wires": [
+            [
+                "5246c5e64b9e73e9"
+            ]
+        ]
+    },
+    {
+        "id": "5246c5e64b9e73e9",
+        "type": "function",
+        "z": "d91ac3d282c069d0",
+        "g": "929dcf3869978995",
+        "name": "DELETE ALL",
+        "func": "\nmsg.topic = `\n  DELETE FROM offline_data;\n`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1600,
+        "wires": [
+            [
+                "0ee975cfd312fd82"
+            ]
+        ]
+    },
+    {
+        "id": "0ee975cfd312fd82",
+        "type": "mysql",
+        "z": "d91ac3d282c069d0",
+        "g": "929dcf3869978995",
+        "mydb": "45598baf2af77f76",
+        "name": "",
+        "x": 540,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a02bbf92b60f8560",
+        "type": "inject",
+        "z": "d91ac3d282c069d0",
+        "g": "a5bc3a1930f09c8f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 1020,
+        "wires": [
+            [
+                "f744467ba4084a45"
+            ]
+        ]
+    },
+    {
+        "id": "b8577533afc8f923",
+        "type": "inject",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 990,
+        "y": 240,
+        "wires": [
+            [
+                "47831eb7f61148f3"
+            ]
+        ]
+    },
+    {
+        "id": "36684df8be923d94",
+        "type": "comment",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "Data GPS",
+        "info": "",
+        "x": 920,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2066bd88e7af100c",
+        "type": "comment",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "Data acceleration",
+        "info": "",
+        "x": 1040,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "c736c41652e450f8",
+        "type": "exec",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "command": "sudo /home/debian/owasys4x_binaries/IMU_OWASYS",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1480,
+        "y": 640,
+        "wires": [
+            [
+                "7c8df98f5b141e70",
+                "a1181c74f0fc3607"
+            ],
+            [],
+            [
+                "4aec1fd7222960ee"
+            ]
+        ]
+    },
+    {
+        "id": "f6d245e62a449c5a",
+        "type": "inject",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1110,
+        "y": 640,
+        "wires": [
+            [
+                "c736c41652e450f8"
+            ]
+        ]
+    },
+    {
+        "id": "d28d9830f4dd2419",
+        "type": "debug",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2120,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "7c8df98f5b141e70",
+        "type": "debug",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1840,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "47831eb7f61148f3",
+        "type": "exec",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "command": "sudo /home/debian/owasys4x_binaries/GPS_LS_OWA",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1340,
+        "y": 240,
+        "wires": [
+            [
+                "8256a75577ab7f8f",
+                "87f338dea84ad19d"
+            ],
+            [],
+            [
+                "e08c99662e73027f",
+                "747ff1bf8f03c395"
+            ]
+        ]
+    },
+    {
+        "id": "8256a75577ab7f8f",
+        "type": "json",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1790,
+        "y": 220,
+        "wires": [
+            [
+                "e84a74a9fa6d9250"
+            ]
+        ]
+    },
+    {
+        "id": "a1181c74f0fc3607",
+        "type": "json",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1810,
+        "y": 640,
+        "wires": [
+            [
+                "8fa40cd16f10f3f3"
+            ]
+        ]
+    },
+    {
+        "id": "7ecec582e1d531ff",
+        "type": "delay",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1640,
+        "y": 340,
+        "wires": [
+            [
+                "47831eb7f61148f3"
+            ]
+        ]
+    },
+    {
+        "id": "41c6b9dffe0d97c7",
+        "type": "delay",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 800,
+        "wires": [
+            [
+                "c736c41652e450f8"
+            ]
+        ]
+    },
+    {
+        "id": "4aec1fd7222960ee",
+        "type": "exec",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "command": "sudo kill $(ps -A | grep IMU_OWASYS | awk '{print$1}')",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1400,
+        "y": 820,
+        "wires": [
+            [
+                "41c6b9dffe0d97c7"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e08c99662e73027f",
+        "type": "exec",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "command": "sudo kill $(ps -A | grep GPS_LS_OWA | awk '{print$1}')",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1240,
+        "y": 360,
+        "wires": [
+            [
+                "7ecec582e1d531ff"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8fa40cd16f10f3f3",
+        "type": "function",
+        "z": "87fe75fba6b00d60",
+        "d": true,
+        "g": "b581a2db5e6b184e",
+        "name": "function 104",
+        "func": "var gateway_data = global.get('gateway_data');\n\ngateway_data.data.imu.accel_x = msg.payload.x_axis;\n\ngateway_data.data.imu.accel_y = msg.payload.y_axis;\n\ngateway_data.data.imu.accel_z = msg.payload.z_axis;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 660,
+        "wires": [
+            [
+                "d28d9830f4dd2419"
+            ]
+        ]
+    },
+    {
+        "id": "e84a74a9fa6d9250",
+        "type": "function",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "filter data",
+        "func": "const jsonOriginal = msg.payload;\n\n\nlet combined_data = global.get(\"data_combined\");\n\nconst newData = {\n  data: {\n    gps: {\n      pos_valid: jsonOriginal.pos_valid || 0,\n      latitude: jsonOriginal.lat || 0,\n      longitude: jsonOriginal.lon || 0,\n      altitude: jsonOriginal.alt || 0,\n      haccuracy: jsonOriginal.hAcc || 0,\n      speed: jsonOriginal.Speed || 0,\n      course: jsonOriginal.Course || 0\n    }\n  }\n};\n\ncombined_data.data.gps.pos_valid = jsonOriginal.pos_valid || 0;\ncombined_data.data.gps.latitude = jsonOriginal.lat || 0;\ncombined_data.data.gps.longitude = jsonOriginal.lon || 0;\ncombined_data.data.gps.altitude = jsonOriginal.alt || 0;\ncombined_data.data.gps.haccuracy = jsonOriginal.hAcc || 0;\ncombined_data.data.gps.speed = jsonOriginal.Speed || 0;\ncombined_data.data.gps.course = jsonOriginal.Course || 0;\n\n\nmsg.payload = newData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2000,
+        "y": 240,
+        "wires": [
+            [
+                "3e24baa2c251e9ef"
+            ]
+        ]
+    },
+    {
+        "id": "3e24baa2c251e9ef",
+        "type": "debug",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "debug 146",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2010,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "747ff1bf8f03c395",
+        "type": "debug",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "debug 152",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1810,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "87f338dea84ad19d",
+        "type": "debug",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
+        "name": "debug 153",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1710,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "fdba3e0e10a061de",
+        "type": "inject",
+        "z": "87fe75fba6b00d60",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1030,
+        "y": 980,
+        "wires": [
+            [
+                "a3e0d2665b793cc6"
+            ]
+        ]
+    },
+    {
+        "id": "a3e0d2665b793cc6",
+        "type": "exec",
+        "z": "87fe75fba6b00d60",
+        "command": "sudo kill $(ps -A | grep GPS_LS_OWA | awk '{print$1}')",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1340,
+        "y": 980,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1ef894c4d0536add",
         "type": "change",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
+        "z": "87fe75fba6b00d60",
+        "g": "f63822d016fb39f6",
         "name": "",
         "rules": [
             {
                 "t": "set",
-                "p": "data_live_slow.data.gateway_info.ping_acme",
+                "p": "data_combined.data.gps",
                 "pt": "global",
-                "to": "payload",
+                "to": "payload.data.gps",
                 "tot": "msg"
             }
         ],
@@ -5325,33 +4978,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1230,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "47371280d37afc93",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_live_slow.data.gateway_info.ping_acme",
-                "pt": "global",
-                "to": "not connected",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1230,
+        "x": 2300,
         "y": 300,
         "wires": [
             []
@@ -5579,59 +5206,6 @@
         "x": 430,
         "y": 1380,
         "wires": []
-    },
-    {
-        "id": "25de188a7a085732",
-        "type": "exec",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "command": "echo -n $(sudo ping -c 1 161.132.39.167 | grep \"time=\" | cut -d'=' -f4 | cut -d' ' -f1)",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Acme connection",
-        "x": 390,
-        "y": 220,
-        "wires": [
-            [
-                "969b2948e1ba5ece"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "48658aa020f8e9fe",
-        "type": "inject",
-        "z": "ac1b7f858f654d07",
-        "g": "39ddbe85a72ee0b3",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "15",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 220,
-        "wires": [
-            [
-                "25de188a7a085732"
-            ]
-        ]
     },
     {
         "id": "e42e5626f1e90489",
@@ -6094,118 +5668,6 @@
         ]
     },
     {
-        "id": "ba84c00520399543",
-        "type": "is online",
-        "z": "ac1b7f858f654d07",
-        "name": "",
-        "url": "192.168.88.1",
-        "action": "1",
-        "x": 341,
-        "y": 1560,
-        "wires": [
-            [
-                "5b4ce3a30d347e88",
-                "8c5b42657007b5c3"
-            ]
-        ]
-    },
-    {
-        "id": "ed2903dca7f2ed3c",
-        "type": "inject",
-        "z": "ac1b7f858f654d07",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "5",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 1560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5b4ce3a30d347e88",
-        "type": "timeout",
-        "z": "ac1b7f858f654d07",
-        "name": "My Timeout",
-        "outtopic": "",
-        "outsafe": "connected",
-        "outwarning": "warning",
-        "outunsafe": "disconnected",
-        "warning": "30",
-        "timer": "60",
-        "repeat": false,
-        "again": false,
-        "x": 550,
-        "y": 1560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "51a8cead4b1297e9",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections.vpn_server",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1020,
-        "y": 1580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8c5b42657007b5c3",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections.vpn_server",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 1640,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ef99aceb232f94a2",
         "type": "exec",
         "z": "ac1b7f858f654d07",
@@ -6236,8 +5698,7 @@
         "y": 1780,
         "wires": [
             [
-                "785734d45c18f503",
-                "d25852d3eaf8b0f9"
+                "785734d45c18f503"
             ]
         ]
     },
@@ -6279,8 +5740,8 @@
         "outsafe": "connected",
         "outwarning": "Warning",
         "outunsafe": "disconnected",
-        "warning": "30",
-        "timer": "60",
+        "warning": "10",
+        "timer": "24",
         "repeat": false,
         "again": false,
         "x": 550,
@@ -6293,51 +5754,6 @@
         ]
     },
     {
-        "id": "9ed2775c93290be1",
-        "type": "exec",
-        "z": "ac1b7f858f654d07",
-        "command": "sudo systemctl restart networking",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Restart Networking",
-        "x": 1090,
-        "y": 1700,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "d25852d3eaf8b0f9",
-        "type": "change",
-        "z": "ac1b7f858f654d07",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "connections.acme_server",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 800,
-        "y": 1900,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "9e87bc66937a516c",
         "type": "change",
         "z": "ac1b7f858f654d07",
@@ -6345,7 +5761,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "connections_acme_server",
+                "p": "connections.acme_server",
                 "pt": "global",
                 "to": "false",
                 "tot": "bool"
@@ -6356,7 +5772,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1130,
+        "x": 1120,
         "y": 1780,
         "wires": [
             []
@@ -6377,37 +5793,6 @@
         "x": 790,
         "y": 1820,
         "wires": []
-    },
-    {
-        "id": "4c4631a2509855f7",
-        "type": "switch",
-        "z": "ac1b7f858f654d07",
-        "name": "running?",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "connected",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "disconnected",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 760,
-        "y": 1560,
-        "wires": [
-            [],
-            [
-                "51a8cead4b1297e9"
-            ]
-        ]
     },
     {
         "id": "d288dbedb534dfc0",
@@ -6434,10 +5819,13 @@
         "x": 760,
         "y": 1780,
         "wires": [
-            [],
             [
-                "9ed2775c93290be1",
-                "9e87bc66937a516c"
+                "f2bbf05a1f8c8e4e",
+                "a8c9817b1faa931a"
+            ],
+            [
+                "9e87bc66937a516c",
+                "51e008ab41dcb5b3"
             ]
         ]
     },
@@ -6471,10 +5859,106 @@
         ]
     },
     {
-        "id": "b8577533afc8f923",
+        "id": "f2bbf05a1f8c8e4e",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "connections.acme_server",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51e008ab41dcb5b3",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "disconnect",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 1840,
+        "wires": [
+            [
+                "fc39dd6bfae81cb3"
+            ]
+        ]
+    },
+    {
+        "id": "a8c9817b1faa931a",
+        "type": "change",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "connect",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 1680,
+        "wires": [
+            [
+                "b74780beec384a11"
+            ]
+        ]
+    },
+    {
+        "id": "b74780beec384a11",
+        "type": "mqtt out",
+        "z": "ac1b7f858f654d07",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8d53d2f17df7fbc4",
+        "x": 1270,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "d9bfe6fb73a428f7",
         "type": "inject",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
+        "z": "ac1b7f858f654d07",
         "name": "",
         "props": [
             {
@@ -6487,75 +5971,23 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": true,
-        "onceDelay": "1",
+        "once": false,
+        "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1030,
-        "y": 240,
+        "x": 900,
+        "y": 1880,
         "wires": [
             [
-                "47831eb7f61148f3"
+                "51e008ab41dcb5b3"
             ]
         ]
     },
     {
-        "id": "36684df8be923d94",
-        "type": "comment",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "Data GPS",
-        "info": "",
-        "x": 920,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "2066bd88e7af100c",
-        "type": "comment",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "name": "Data acceleration",
-        "info": "",
-        "x": 1040,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "c736c41652e450f8",
-        "type": "exec",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "command": "sudo /home/debian/owasys4x_binaries/IMU_OWASYS",
-        "addpay": "payload",
-        "append": "",
-        "useSpawn": "true",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1480,
-        "y": 640,
-        "wires": [
-            [
-                "7c8df98f5b141e70",
-                "a1181c74f0fc3607"
-            ],
-            [],
-            [
-                "4aec1fd7222960ee"
-            ]
-        ]
-    },
-    {
-        "id": "f6d245e62a449c5a",
+        "id": "3c133cbf9aaafa31",
         "type": "inject",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
+        "z": "ac1b7f858f654d07",
         "name": "",
         "props": [
             {
@@ -6568,443 +6000,36 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": true,
-        "onceDelay": "0.5",
+        "once": false,
+        "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1110,
-        "y": 640,
+        "x": 900,
+        "y": 1660,
         "wires": [
             [
-                "c736c41652e450f8"
+                "a8c9817b1faa931a"
             ]
         ]
     },
     {
-        "id": "d28d9830f4dd2419",
-        "type": "debug",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "name": "debug 35",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2120,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "7c8df98f5b141e70",
-        "type": "debug",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "name": "debug 37",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1840,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "47831eb7f61148f3",
-        "type": "exec",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "command": "sudo /home/debian/owasys4x_binaries/GPS_LS_OWASYS",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "true",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
+        "id": "fc39dd6bfae81cb3",
+        "type": "mqtt out",
+        "z": "ac1b7f858f654d07",
         "name": "",
-        "x": 1360,
-        "y": 240,
-        "wires": [
-            [
-                "8256a75577ab7f8f",
-                "87f338dea84ad19d"
-            ],
-            [],
-            [
-                "e08c99662e73027f",
-                "747ff1bf8f03c395"
-            ]
-        ]
-    },
-    {
-        "id": "8256a75577ab7f8f",
-        "type": "json",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 1790,
-        "y": 220,
-        "wires": [
-            [
-                "e84a74a9fa6d9250"
-            ]
-        ]
-    },
-    {
-        "id": "a1181c74f0fc3607",
-        "type": "json",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 1810,
-        "y": 640,
-        "wires": [
-            [
-                "8fa40cd16f10f3f3"
-            ]
-        ]
-    },
-    {
-        "id": "7ecec582e1d531ff",
-        "type": "delay",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1640,
-        "y": 340,
-        "wires": [
-            [
-                "47831eb7f61148f3"
-            ]
-        ]
-    },
-    {
-        "id": "41c6b9dffe0d97c7",
-        "type": "delay",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1720,
-        "y": 800,
-        "wires": [
-            [
-                "c736c41652e450f8"
-            ]
-        ]
-    },
-    {
-        "id": "4aec1fd7222960ee",
-        "type": "exec",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "command": "sudo kill $(ps -A | grep IMU_OWASYS | awk '{print$1}')",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1400,
-        "y": 820,
-        "wires": [
-            [
-                "41c6b9dffe0d97c7"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "e08c99662e73027f",
-        "type": "exec",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "command": "sudo kill $(ps -A | grep GPS_LS_OWASYS | awk '{print$1}')",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1260,
-        "y": 360,
-        "wires": [
-            [
-                "7ecec582e1d531ff"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "8fa40cd16f10f3f3",
-        "type": "function",
-        "z": "87fe75fba6b00d60",
-        "d": true,
-        "g": "b581a2db5e6b184e",
-        "name": "function 104",
-        "func": "var gateway_data = global.get('gateway_data');\n\ngateway_data.data.imu.accel_x = msg.payload.x_axis;\n\ngateway_data.data.imu.accel_y = msg.payload.y_axis;\n\ngateway_data.data.imu.accel_z = msg.payload.z_axis;\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1970,
-        "y": 660,
-        "wires": [
-            [
-                "d28d9830f4dd2419"
-            ]
-        ]
-    },
-    {
-        "id": "df8a10090d74e4e8",
-        "type": "change",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_live_fast_gps.data",
-                "pt": "global",
-                "to": "payload.data",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2280,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2fa77055763d72e1",
-        "type": "change",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_online_save_gps.data",
-                "pt": "global",
-                "to": "payload.data",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2290,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e84a74a9fa6d9250",
-        "type": "function",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "filter data",
-        "func": "const jsonOriginal = msg.payload;\n\nconst newData = {\n  data: {\n    gps: {\n      pos_valid: jsonOriginal.pos_valid || 0,\n      latitude: jsonOriginal.lat || 0,\n      longitude: jsonOriginal.lon || 0,\n      altitude: jsonOriginal.alt || 0,\n      haccuracy: jsonOriginal.hAcc || 0,\n      speed: jsonOriginal.Speed || 0,\n      course: jsonOriginal.Course || 0\n    }\n  }\n};\n\nmsg.payload = newData;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2000,
-        "y": 240,
-        "wires": [
-            [
-                "df8a10090d74e4e8",
-                "2fa77055763d72e1",
-                "3e24baa2c251e9ef",
-                "1ef894c4d0536add"
-            ]
-        ]
-    },
-    {
-        "id": "3e24baa2c251e9ef",
-        "type": "debug",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "debug 146",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2010,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "747ff1bf8f03c395",
-        "type": "debug",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "debug 152",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1810,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "87f338dea84ad19d",
-        "type": "debug",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "debug 153",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1710,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "fdba3e0e10a061de",
-        "type": "inject",
-        "z": "87fe75fba6b00d60",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "0.1",
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1030,
-        "y": 980,
-        "wires": [
-            [
-                "a3e0d2665b793cc6"
-            ]
-        ]
-    },
-    {
-        "id": "a3e0d2665b793cc6",
-        "type": "exec",
-        "z": "87fe75fba6b00d60",
-        "command": "sudo kill $(ps -A | grep GPS_LS_OWASYS | awk '{print$1}')",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1360,
-        "y": 980,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "1ef894c4d0536add",
-        "type": "change",
-        "z": "87fe75fba6b00d60",
-        "g": "f63822d016fb39f6",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "data_combined.data.gps",
-                "pt": "global",
-                "to": "payload.data.gps",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2300,
-        "y": 360,
-        "wires": [
-            []
-        ]
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8d53d2f17df7fbc4",
+        "x": 1270,
+        "y": 1840,
+        "wires": []
     },
     {
         "id": "20ee78ed66500570",
@@ -7356,7 +6381,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "data_combined.data.battery",
+                "p": "data_combined.data.battery.voltage",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7367,7 +6392,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1290,
+        "x": 1320,
         "y": 80,
         "wires": [
             []
@@ -7381,7 +6406,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "data_combined.data.pressure",
+                "p": "data_combined.data.pressure.current",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -7392,7 +6417,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1300,
+        "x": 1320,
         "y": 220,
         "wires": [
             []
@@ -7628,9 +6653,7 @@
         "x": 130,
         "y": 480,
         "wires": [
-            [
-                "918d7d095fe69fad"
-            ]
+            []
         ]
     },
     {
