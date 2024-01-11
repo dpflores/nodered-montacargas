@@ -385,12 +385,13 @@
             "f744467ba4084a45",
             "88336e89834b87b5",
             "f8c6cb7e77c989aa",
-            "a02bbf92b60f8560"
+            "a02bbf92b60f8560",
+            "02195dd20a4bd04e"
         ],
         "x": 34,
-        "y": 859,
+        "y": 819,
         "w": 1392,
-        "h": 262
+        "h": 302
     },
     {
         "id": "1d1b1c227a0bc262",
@@ -683,37 +684,6 @@
         "sessionExpiry": ""
     },
     {
-        "id": "b3ac84e59550c44b",
-        "type": "mqtt-broker",
-        "name": "Cristopher Local Broker",
-        "broker": "192.168.192.183",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
         "id": "45598baf2af77f76",
         "type": "MySQLdatabase",
         "name": "",
@@ -751,6 +721,37 @@
         "closeMsg": {},
         "willTopic": "",
         "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "af0e1199e967abce",
+        "type": "mqtt-broker",
+        "name": "Komatsu_broker",
+        "broker": "172.18.2.100",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
         "willPayload": "",
         "willMsg": {},
         "userProps": "",
@@ -3860,7 +3861,8 @@
                 "f8c2dbe5933535aa",
                 "7848935da681379d",
                 "4d989b9847ec219b",
-                "9a6f168a3cfe9e6c"
+                "9a6f168a3cfe9e6c",
+                "02195dd20a4bd04e"
             ]
         ]
     },
@@ -3916,7 +3918,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1250,
-        "y": 900,
+        "y": 860,
         "wires": []
     },
     {
@@ -4257,7 +4259,7 @@
         "z": "d91ac3d282c069d0",
         "g": "3e6cdd9658d4b98d",
         "name": "",
-        "topic": "data/combined1",
+        "topic": "data/combined",
         "qos": "0",
         "retain": "",
         "respTopic": "",
@@ -4265,7 +4267,7 @@
         "userProps": "",
         "correl": "",
         "expiry": "",
-        "broker": "8d53d2f17df7fbc4",
+        "broker": "af0e1199e967abce",
         "x": 660,
         "y": 440,
         "wires": []
@@ -4502,6 +4504,25 @@
                 "f744467ba4084a45"
             ]
         ]
+    },
+    {
+        "id": "02195dd20a4bd04e",
+        "type": "mqtt out",
+        "z": "d91ac3d282c069d0",
+        "g": "a5bc3a1930f09c8f",
+        "name": "",
+        "topic": "data/offline/save",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "af0e1199e967abce",
+        "x": 1240,
+        "y": 900,
+        "wires": []
     },
     {
         "id": "b8577533afc8f923",
@@ -5906,7 +5927,8 @@
         "y": 1840,
         "wires": [
             [
-                "fc39dd6bfae81cb3"
+                "fc39dd6bfae81cb3",
+                "5d40db93a5429342"
             ]
         ]
     },
@@ -5933,7 +5955,8 @@
         "y": 1680,
         "wires": [
             [
-                "b74780beec384a11"
+                "b74780beec384a11",
+                "8198201c7ebd8d7d"
             ]
         ]
     },
@@ -5941,7 +5964,7 @@
         "id": "b74780beec384a11",
         "type": "mqtt out",
         "z": "ac1b7f858f654d07",
-        "name": "",
+        "name": "Acme",
         "topic": "",
         "qos": "",
         "retain": "",
@@ -6017,7 +6040,7 @@
         "id": "fc39dd6bfae81cb3",
         "type": "mqtt out",
         "z": "ac1b7f858f654d07",
-        "name": "",
+        "name": "Acme",
         "topic": "",
         "qos": "",
         "retain": "",
@@ -6029,6 +6052,42 @@
         "broker": "8d53d2f17df7fbc4",
         "x": 1270,
         "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "8198201c7ebd8d7d",
+        "type": "mqtt out",
+        "z": "ac1b7f858f654d07",
+        "name": "Komatsu",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "af0e1199e967abce",
+        "x": 1280,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "5d40db93a5429342",
+        "type": "mqtt out",
+        "z": "ac1b7f858f654d07",
+        "name": "Komatsu",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "af0e1199e967abce",
+        "x": 1280,
+        "y": 1900,
         "wires": []
     },
     {
